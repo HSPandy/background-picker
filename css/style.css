@@ -1,0 +1,47 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+html{
+  background-color: black;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#crazy{
+  background: rgb(241, 72, 241);
+}
+#baby{
+  background: rgba(0,253,81,1);
+}
+#naughty{
+  background: rgba(0,254,255);
+}
+#me{
+  background: rgb(241, 160, 7);
+}
